@@ -1,0 +1,49 @@
+body{
+    background-color: #bcc97f;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: #7a8153;
+}
+
+li{
+    height: 40px;
+    width: 140px;
+    margin: 3px;
+    list-style: none;
+    text-align: center;
+    text-align: unset
+}
+
+.grid{
+    display: grid;
+    text-align: justify;
+    grid-template-columns: auto auto;
+    grid-template-columns: 75% 25%;
+}
+
+.Inicio{
+    grid-column: 1/2;
+}
+
+.Info{
+    grid-column: 2/2;
+}
+
+.icon{
+    display: block;
+    box-sizing: content-box;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoContact{
+    display: flex;
+    background-color: #7a8153;
+    flex-direction: row;
+    color: white;
+}

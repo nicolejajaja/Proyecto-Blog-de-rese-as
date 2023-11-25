@@ -1,0 +1,1 @@
+let elemento= document.getElementsByTagName()
